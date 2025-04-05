@@ -21,8 +21,8 @@
 &kp LCTRL &kp A  &kp S  &kp D    &kp F    &kp G                                    &kp H  &kp J    &kp K     &kp L     &kp JP_SEMI  &kp JP_COLON
 &kp LSHFT &kp Z  &kp X  &kp C    &kp V    &kp B  &kp LANGUAGE_2     &kp LANGUAGE_1 &kp N  &kp M    &kp COMMA &kp DOT   &kp JP_SLASH &kp JP_BSLH
 &kp LALT  &kp LGUI               &mkp MB1        &mkp MB2           &kp SPACE      &kp ENTER                           &kp JP_CARET &kp JP_YEN
-                 &tog 2 &kp ENTER                &lt 3 LANG1        &lt 1                          &kp ENTER &tog 2
-                                                 &kp LG(C)          &lt 2
+                 &tog 2 &kp ENTER                &lt 3 LANG1        &mo 1                          &kp ENTER &tog 2
+                                                 &kp LG(C)          &mo 2
           &mo 1  &mo 2  &mo 3                                                                      &mo 1     &mo 2     &mo 3
                                                  &mo 1    &mo 2     &mo 3  
             >;
