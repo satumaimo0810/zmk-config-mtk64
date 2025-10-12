@@ -18,7 +18,7 @@ manifest:
       remote: mentako-ya
       revision: main
     - name: zmk-dongle-display
-      remote: englmaxi
+      remote: mmentako-ya
       revision: main
   self:
     path: config
