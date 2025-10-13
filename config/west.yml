@@ -19,6 +19,6 @@ manifest:
       revision: main
     - name: zmk-dongle-display
       remote: mentako-ya
-      revision: main
+      revision: mentako
   self:
     path: config
