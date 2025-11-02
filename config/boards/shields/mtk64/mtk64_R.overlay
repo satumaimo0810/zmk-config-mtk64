@@ -1,5 +1,4 @@
 #include "mtk64.dtsi"
-#include "mtk64_trackball.dtsi"
 
 / {
     chosen {
@@ -26,16 +25,26 @@
 };
 */
 
-&spi0 {
+&left_encoder {
     status = "okay";
 };
 
-&trackball { 
+&right_encoder {
     status = "okay";
 };
 
-&trackball_split { 
+&left_encoder {
+    compatible = "alps,ec11";
+    a-gpios = <&xiao_d 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+    b-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+    steps = <15>;
     status = "okay";
 };
 
-&xiao_serial { status = "disabled"; };
+&right_encoder {
+    compatible = "alps,ec11";
+    a-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+    b-gpios = <&gpio0 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+    steps = <15>;
+    status = "okay";
+};
