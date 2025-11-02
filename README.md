@@ -83,7 +83,7 @@ https://github.com/caksoylar/zmk-rgbled-widget
     ```
     mtk64_R rgbled_adapter-seeeduino_xiao_ble-zmk.uf2       右手用ファームウェア
     mtk64_L rgbled_adapter-seeeduino_xiao_ble-zmk.uf2       左手用ファームウェア
-    mtk64_FOOT rgbled_adapter-seeeduino_xiao_ble-zmk.uf2    フットスイッチ用ファームウェア
+    mtk64_DONGLE rgbled_adapter-seeeduino_xiao_ble-zmk.uf2    フットスイッチ用ファームウェア
     settings_reset-seeeduino_xiao_ble-zmk.uf2               リセット用ファイル
     ```
 
